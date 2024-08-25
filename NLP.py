@@ -4,15 +4,15 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 import os
-from groq import Groq
+import openai  # Assuming you are using OpenAI's ChatGPT API
+import time  # Import the time module
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = os.path.dirname(os.path.abspath(__file__))
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-# Initialize Groq client with API key from environment variables
-os.environ['GROQ_API_KEY'] = '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'
-client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+# Set the new ChatGPT API key directly
+openai.api_key = "api_key"
 
 # Load pre-trained NLP model
 nlp = spacy.load('en_core_web_sm')
@@ -23,16 +23,13 @@ def remove_stopwords(text):
 
 def create_combined_sentence(legacy, new):
     prompt = f"Combine the following two requirements using air force terminology (aircraft, fueling, flight, aviators) into one coherent and grammatically correct sentence, make it short, and only print the combined requirement DO NOT SAY here is the combined requirement:\n\nLegacy Requirement: {legacy}\nNew Requirement: {new}\n\nCombined Sentence:"
-    chat_completion = client.chat.completions.create(
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",  # You can specify the appropriate model
         messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-        model="llama3-8b-8192",
+            {"role": "user", "content": prompt},
+        ]
     )
-    combined_sentence = chat_completion.choices[0].message.content.strip()
+    combined_sentence = response.choices[0].message['content'].strip()
     return legacy, new, combined_sentence
 
 @app.route('/', methods=['GET', 'POST'])
@@ -40,6 +37,8 @@ def index():
     integrated_requirements = []
     
     if request.method == 'POST':
+        start_time = time.time()  # Start the timer
+
         if 'new_file' not in request.files:
             return redirect(request.url)
         new_file = request.files['new_file']
@@ -104,6 +103,9 @@ def index():
                                 'new': n_req,
                                 'integrated': n_req.strip()
                             })
+
+        elapsed_time = time.time() - start_time  # Calculate the elapsed time
+        print(f"Time taken to reach line 109: {elapsed_time:.2f} seconds")  # Print the elapsed time
 
         # Ensure only 10 integrated requirements are included
         integrated_requirements = integrated_requirements[:10]
