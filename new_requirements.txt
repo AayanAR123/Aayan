@@ -1,87 +1,157 @@
-"The Air Force Manpower, Organization and Resources Directorate (AF/A1M) will ensure Air Force manpower is organized and employed to provide maximum effectiveness and combat power to support National military objectives."
+"Establish and manage aircraft logistics for frontline operations and refueling (Allied and Adversary)"
 
-"AF/A1M will execute manpower management ensuring it is flexible and adaptive to program changes, responsive to crisis situations and new management strategies."
+"Report the current status and progress of forward deployment and refueling activities"
 
-"AF/A1M will review new policies, including fiscal policy, to evaluate its impact on manpower and personnel performance. AF/A1M will periodically assess existing policies, procedures, and structures to ensure efficient and effective use of manpower resources."
+"Develop and maintain supply operations for aerial transport hubs (Allied and Adversary)"
 
-"Manpower requirements are workload-driven and will be established at the minimum levels necessary to execute mission and performance objectives."
+"Deliver updates and reports on the status of supply chain activities"
 
-"Changes in manpower will be preceded by changes to the policies, programs, missions, and processes requiring manpower resources."
+"Indicate aircraft landings on non-paved runways"
 
-"Manpower requirements for business processes must be maintained at the lowest possible proportion of the Total Force structure. Manpower in support of war-fighting processes will be maintained at the lowest level practicable to optimize combat capability within the operating forces."
+"Show aircraft landings on designated runways"
 
-"Assigned missions must use the least costly mix of personnel (military, civilian, and contract) consistent with military requirements and needs of the Air Force."
+"Organize air-to-air refueling operations to sustain strategic air corridors"
 
-"Inherently governmental functions will not be contracted."
+"Departing tankers will decrement base fuel reserves"
 
-"Manpower authorities must consider all available sources when determining workforce mix to include the Regular Air Force and Air Reserve Component (Air Reserve Component) military manpower, United States and foreign national civilian manpower, intragovernmental, contract, and host-nation support."
+"Process and implement fuel requisition orders"
 
-"Manpower will be designated as civilian except when military incumbency is required for reasons of law, Command and Control of crisis situations, combat readiness, or esprit de corps; when unusual working conditions are not conducive to civilian employment; or when military-unique knowledge and skills are required to perform the duties. Manpower authorities shall designate sufficient manpower to provide a rotation base for military personnel and for civilian employees assigned outside the United States. Furthermore, when designating management positions as military or civilian, career opportunities for both categories of personnel shall be considered."
+"Navigate to designated air refueling zones according to Airspace Control Measures"
 
-"When a system dependency or component (ACE-IOS, MaiTai, external system, etc.) fails, redundancy is provided such that the impact of failure in one instance is mitigated by functionality being provided through the redundant instances."
+"Flexibly manage fuel transfer from standby refueling units"
 
-"Functionality which is not directly dependent on the failing dependency should not be impacted."
+"Update and adapt tanker scheduling and fuel offloading plans"
 
-"Components failure results in a gradual degradation of operational capability as opposed to a total mission shutdown."
+"Organize, coordinate, and carry out medical evacuation flights"
 
-"Systems either automatically failover to a redundant instance or have documented manual intervention processes."
+"Assist commanders to execute the mission by maintaining situational awareness of the supported unit’s primary missions and capabilities and providing sound advice for managing manpower risk and resources."
 
-"The system shall meet established the AFMSTT threshold requirement of 98.5% system availability during any exercise with 99.9% objective per AFMSTT Statement of Work."
+"Assist commanders by maintaining open and responsive communication and ensuring assigned personnel are competent in policies, procedures, and abilities to provide a wide range of sophisticated manpower capabilities."
 
-"When real-time system performance monitoring detects a failure/error, notifications are provided to system administrators."
+"Assist commanders to manage resources by advising on policies and procedures for managing manpower requirements and authorizations; evaluate and process requests for changing manpower, and ensure manpower data is correct in the Manpower Programming and Execution System."
 
-"Sufficient logging will be in place such that failures can be diagnosed/triaged after the fact."
+"Assist commanders by providing manpower information and data analysis to support data-driven decisions to strategically align resources to missions and performance management."
 
-"All manual processes are documented/designed such that no single person functions as a single point of failure either in terms of knowledge or practical ability."
+"Provide analysis and process improvement services to help improve mission readiness and resolve deficiencies, including those identified by the Commander’s Inspection Program."
 
-"The system reports status of progress when execution of a task is not completed immediately."
+"Incorporate and integrate Continuous Process Improvement and problem-solving principles, practices, and tools before determining and managing manpower requirements and authorizations."
 
-"When a user-facing system has delays of more than 1 second, it should indicate to the user that the system is working on the problem."
+"Develop policy and guidance for the Secretary of the Air Force to determine and manage Air Force manpower requirements. Will define Air Force manpower requirements and manage corporate Air Force manpower programming and resource distribution for the Total Force."
 
-"When a user-facing system has delays of 10 seconds or more, a progress indicator or regular status updates are provided to the end user."
+"Ensure corporate Air Force manpower requirements link mission capabilities to programmed resources."
 
-"Systems are configured to horizontally scale (up and down) in response to increasing or decreasing user load."
+"Oversee programs and prepare policies for management engineering, wartime requirements, end strength management, and manpower data management."
 
-"Real-time system performance monitoring measures and identifies degradations as a factor of system changes (config changes, code releases, etc.) or of circumstantial changes (size of data set, number of active users, etc.)."
+"Develop and administer policies for identifying and adjusting Air Force manpower integral to the Strategy, Planning, Programming, Budgeting, and Execution process."
 
-"System reliability is ensured by applications through refusal to process requests containing invalid input data."
+"Develop and implement Air Force-wide Total Force manpower guidance for workforce mix."
 
-"An application should publish in a machine-readable format (such as open API specifications) what constitutes valid input into any of its user-accessible interfaces to enable automated testing."
+"Develop and implement Air Force-wide Total Force manpower program control for all manpower resources and requirements including ceilings associated with management headquarters, headquarters support activities, and Joint activities."
 
-"When applications refuse to process a request due to invalid input data, they communicate through system logging or user notification that this refusal was caused by invalid input data, and (in as precise a way as is feasible) what about the input data rendered it invalid."
+"Establish and disseminate plans and procedures governing the Total Force manpower requirements determination process and the efficient use of manpower resources and associated grades."
 
-"Examples: 400 - Request refused, Input data was not valid; 400 - Request refused, Input data field 'A.X.Y' was 12 characters long - 10 is the maximum; 400 - Request refused, Field 'X.Y.Z' is required, but no value was provided."
+"Develop and program manpower assessments for manpower and organization actions directed by the Air Force corporate process."
 
-"Automated and reconfigurable on-demand deployment and validation of applications."
+"Approve manpower determinants and resource costing models and provide implementation guidance for approved manpower determinants."
 
-"Infrastructure provides Configuration Management supporting consistency across all environments, managed within a central repository."
+"Present results of manpower determinants studies to Air Force Corporate Structure for programming decisions."
 
-"Modular, templated, accredited, repeatable and known environmental infrastructure as code configurations allow for one-to-many, multi-domain, and multi-region secure environment deployments."
+"Operate, secure, and manage the Manpower Programming and Execution System and associated applications."
 
-"Version parity is maintained across environments."
+"Work with Air Force Career Field Managers to advocate for Air Force–level functional priorities and objectives to AF/A1M and Air Force Manpower Analysis Agency to develop, allocate, and manage manpower requirements and resources in their functional area of responsibility."
 
-"Continuous automated database backups/replication to all geographically dispersed nodes. All applications can recover from backup."
+"Assist Air Force Career Field Managers to determine and manage manpower requirements and authorizations in their functional area of responsibility."
 
-"Remotely manage all Kessel Run resources across all domains with the exception of LAN touch maintenance. Troubleshooting, applying patches, and security configurations for applications, platform, and the infrastructure can largely be completed remotely."
+"Notify Air Force Career Field Managers when changes to policies, procedures, or other factors could affect manpower requirements in their functional area of responsibility."
 
-"KR infrastructure enables high availability across regions, availability zones, and hardware profiles by removing single points of failure to support individual team/division task and function accomplishment under highest traffic loading over the projected operational cycle for the life of the system."
+"Define military essentiality and ensure Major Commands follow policies and procedures when identifying manpower positions as military essential."
 
-"KR infrastructure enables disconnected operations and continuity of operations."
+"Approve all manpower availability factors."
 
-"Consistent and standard tailorable interfaces that allow configurable role and content-based access to information sources necessary to accomplish processes."
+"Provide oversight for the Management Engineering Program."
 
-"US Classified (SECRET (S)/Top Secret (TS)/SCI/SAP) data is available to multiple cleared users/decision makers with varying caveat accesses and in which users are only allowed to review and/or update information under the caveats to which they are briefed."
+"Provide manpower standard application and implementation guidance to Major Commands."
 
-"Data access is enabled among agencies and information sources located outside the simulator center, including North Atlantic Treaty Organization (NATO), allies, and coalition as applicable and authorized."
+"Approve the Regular Air Force manpower study schedule and any changes."
 
-"Coalition access to applications/services (legacy and new) is tailorable based on defined roles, security access levels, and releasability that feature US selectability for specified/designated coalition partner(s), level of information, and provide access to source release authorities."
+"Approve specific Regular Air Force Logistics Composite Model scenarios to meet aircraft maintenance manpower requirements."
 
-"Capability to search, discover, and subscribe to applicable data/information sources. Sources could be in current archival and storage areas or external to the simulator center (e.g., other-Services, coalition partners, units, agencies)."
+"Coordinate with MAJCOM/A1M for preparation of Manpower Estimate Reports for major acquisition programs. Oversee updates of reports at various milestones. Coordinate on reports sent by the MAJCOM/A1M."
 
-"Two-way electronic information exchange with unit-level capabilities."
+"Manage Manpower career field Continuous Process Improvement training and capability."
 
-"Collaborative capabilities (unclassified through Special Access Program [SAP]) including both real- and non-real-time collaboration; analog and digital audio; video; video teleconference (VTC); text chat; whiteboard; SMART boards; video/audio broadcast; scrolling bulletins; and shared applications, files, web tools, and virtual collaboration environments."
+"Work with the manpower community to review manpower determinants for applicability and currency."
 
-"Operation available JWICS, SIPR, JTEN, KTEN, and JIOR networks and other closed networks with interruption to ongoing/established operations."
+"Appoint functional area representatives to the manpower standard development team. Collaborate with the Air Force Manpower Analysis Agency and take part in manpower standard development studies."
 
-"Internal log files generated to aid in troubleshooting and conduct in-depth reviews to aid in bringing models back up to Fully Mission Capable (FMC)."
+"Identify initiatives and best practices to the Air Force Manpower Analysis Agency lead team during the manpower determinants study process."
+
+"Review and coordinate on new Regular Air Force manpower determinants before AF/A1M approval."
+
+"Ensure Air Force manpower requirements study documents are approved by the Air Force Analysis Agency Commander, this includes but is not limited to Air Force manpower determinants."
+
+"Improve Air Force mission performance, effectiveness, and resource efficiency by determining current and future peacetime and wartime manpower requirements."
+
+"Partner with functional communities, Major Commands, and field commanders to complete manpower requirements determination studies to include the development of standard work."
+
+"Develop Air Force–level manpower programming factors."
+
+"Develop and execute senior grade reviews, and grade allocation factors."
+
+"Conduct special Headquarters Air Force studies."
+
+"Recommend the most efficient and effective use of Air Force manpower resources to the Air Force Corporate Structure and functional managers."
+
+"Validate Air Force-wide military and civilian manpower requirements, before use in the programming and resourcing process."
+
+"Assist functional managers and field units to execute Air Force strategic sourcing and commercial activity programs."
+
+"Provide manpower and management consulting services to Headquarters Air Force and Air Force functional communities for optimizing systems, improving resource use, and enhancing mission effectiveness and efficiency in peacetime and contingency operations."
+
+"Develop management engineering tools and methods, programming tools, organizational and process-related standards, organizational staffing requirements, and resource allocation studies."
+
+"Serve as Air Force functional lead for Logistics Composite Model."
+
+"Coordinate with Air Force Reserve Command (AFRC)/A1M, and National Guard Bureau (NGB)/A1M when quantifying Regular Air Force manpower requirements in functions common to both Regular Air Force and Air Reserve Components to leverage Total Force integration."
+
+"Develop and quantify manpower availability factors and special manpower availability factors for activities crossing command lines."
+
+"Review and certify manpower availability factors are current, or update factors, at least every three years."
+
+"Post all manpower availability factor tables on the Air Force Manpower Analysis Agency Website."
+
+"Execute the Management Engineering Program."
+
+"Develop management engineering tools and methods to execute the Management Engineering Program."
+
+"Develop, post, and maintain the Regular Air Force manpower studies schedule. Send schedule to AF/A1M for approval."
+
+"Develop, approve, post, and maintain all Regular Air Force manpower determinants, to include Air Force Manpower Analysis Agency–approved Major Command manpower standard variances."
+
+"Staff Regular Air Force manpower standard products with Air Force functional communities and MAJCOM/A1Ms during the manpower determinants development process."
+
+"Conduct Continuous Process Improvement events to develop new or updated standard work documents."
+
+"Provide impact statements at the request of study stakeholders."
+
+"Provide Major Commands with standard work documents and manpower determinants for review during manpower determinants development and staffing process. Major commands provide material to support their comments."
+
+"Notify MAJCOM/A1Ms of new and revised manpower determinants."
+
+"Establish a schedule for currency/functional account code review every two years."
+
+"Coordinate with the functional community, review and update manpower determinants for applicability."
+
+"Advocate for Major Command-specific priorities and objectives to develop, allocate, and manage manpower requirements and resources."
+
+"Validate and manage all manpower requirements and authorizations in the command’s portfolio. This includes participating in developing and applying manpower determinants and cost factors."
+
+"Allocate manpower authorizations in the command’s portfolio. This includes allocating Future Year Defense Program (FYDP) resources and grades."
+
+"Conduct currency review of unfunded Unit Manpower Document positions."
+
+"Remove unfunded positions which are not current or have not been funded for a three-year period. Exceptions will be coordinated with AF/A1MR."
+
+"Assist or prepare manpower estimates, analyses, and reports to support planning, programming, systems acquisition, and resource use."
+
+"Operate and maintain the integrity, viability, and accuracy of all data in the Manpower Programming and Execution System, in the scope of the command’s portfolio."
