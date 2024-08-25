@@ -17,3 +17,71 @@
 "Manpower authorities must consider all available sources when determining workforce mix to include the Regular Air Force and Air Reserve Component (Air Reserve Component) military manpower, United States and foreign national civilian manpower, intragovernmental, contract, and host-nation support."
 
 "Manpower will be designated as civilian except when military incumbency is required for reasons of law, Command and Control of crisis situations, combat readiness, or esprit de corps; when unusual working conditions are not conducive to civilian employment; or when military-unique knowledge and skills are required to perform the duties. Manpower authorities shall designate sufficient manpower to provide a rotation base for military personnel and for civilian employees assigned outside the United States. Furthermore, when designating management positions as military or civilian, career opportunities for both categories of personnel shall be considered."
+
+"When a system dependency or component (ACE-IOS, MaiTai, external system, etc.) fails, redundancy is provided such that the impact of failure in one instance is mitigated by functionality being provided through the redundant instances."
+
+"Functionality which is not directly dependent on the failing dependency should not be impacted."
+
+"Components failure results in a gradual degradation of operational capability as opposed to a total mission shutdown."
+
+"Systems either automatically failover to a redundant instance or have documented manual intervention processes."
+
+"The system shall meet established the AFMSTT threshold requirement of 98.5% system availability during any exercise with 99.9% objective per AFMSTT Statement of Work."
+
+"When real-time system performance monitoring detects a failure/error, notifications are provided to system administrators."
+
+"Sufficient logging will be in place such that failures can be diagnosed/triaged after the fact."
+
+"All manual processes are documented/designed such that no single person functions as a single point of failure either in terms of knowledge or practical ability."
+
+"The system reports status of progress when execution of a task is not completed immediately."
+
+"When a user-facing system has delays of more than 1 second, it should indicate to the user that the system is working on the problem."
+
+"When a user-facing system has delays of 10 seconds or more, a progress indicator or regular status updates are provided to the end user."
+
+"Systems are configured to horizontally scale (up and down) in response to increasing or decreasing user load."
+
+"Real-time system performance monitoring measures and identifies degradations as a factor of system changes (config changes, code releases, etc.) or of circumstantial changes (size of data set, number of active users, etc.)."
+
+"System reliability is ensured by applications through refusal to process requests containing invalid input data."
+
+"An application should publish in a machine-readable format (such as open API specifications) what constitutes valid input into any of its user-accessible interfaces to enable automated testing."
+
+"When applications refuse to process a request due to invalid input data, they communicate through system logging or user notification that this refusal was caused by invalid input data, and (in as precise a way as is feasible) what about the input data rendered it invalid."
+
+"Examples: 400 - Request refused, Input data was not valid; 400 - Request refused, Input data field 'A.X.Y' was 12 characters long - 10 is the maximum; 400 - Request refused, Field 'X.Y.Z' is required, but no value was provided."
+
+"Automated and reconfigurable on-demand deployment and validation of applications."
+
+"Infrastructure provides Configuration Management supporting consistency across all environments, managed within a central repository."
+
+"Modular, templated, accredited, repeatable and known environmental infrastructure as code configurations allow for one-to-many, multi-domain, and multi-region secure environment deployments."
+
+"Version parity is maintained across environments."
+
+"Continuous automated database backups/replication to all geographically dispersed nodes. All applications can recover from backup."
+
+"Remotely manage all Kessel Run resources across all domains with the exception of LAN touch maintenance. Troubleshooting, applying patches, and security configurations for applications, platform, and the infrastructure can largely be completed remotely."
+
+"KR infrastructure enables high availability across regions, availability zones, and hardware profiles by removing single points of failure to support individual team/division task and function accomplishment under highest traffic loading over the projected operational cycle for the life of the system."
+
+"KR infrastructure enables disconnected operations and continuity of operations."
+
+"Consistent and standard tailorable interfaces that allow configurable role and content-based access to information sources necessary to accomplish processes."
+
+"US Classified (SECRET (S)/Top Secret (TS)/SCI/SAP) data is available to multiple cleared users/decision makers with varying caveat accesses and in which users are only allowed to review and/or update information under the caveats to which they are briefed."
+
+"Data access is enabled among agencies and information sources located outside the simulator center, including North Atlantic Treaty Organization (NATO), allies, and coalition as applicable and authorized."
+
+"Coalition access to applications/services (legacy and new) is tailorable based on defined roles, security access levels, and releasability that feature US selectability for specified/designated coalition partner(s), level of information, and provide access to source release authorities."
+
+"Capability to search, discover, and subscribe to applicable data/information sources. Sources could be in current archival and storage areas or external to the simulator center (e.g., other-Services, coalition partners, units, agencies)."
+
+"Two-way electronic information exchange with unit-level capabilities."
+
+"Collaborative capabilities (unclassified through Special Access Program [SAP]) including both real- and non-real-time collaboration; analog and digital audio; video; video teleconference (VTC); text chat; whiteboard; SMART boards; video/audio broadcast; scrolling bulletins; and shared applications, files, web tools, and virtual collaboration environments."
+
+"Operation available JWICS, SIPR, JTEN, KTEN, and JIOR networks and other closed networks with interruption to ongoing/established operations."
+
+"Internal log files generated to aid in troubleshooting and conduct in-depth reviews to aid in bringing models back up to Fully Mission Capable (FMC)."
